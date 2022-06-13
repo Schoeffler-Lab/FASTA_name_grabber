@@ -9,9 +9,9 @@ This python script will take a FASTA format set of amino acid sequences with hea
 It will return a FASTA format file with the re-formatted headers and a list of species names and gene IDs.
 
 To use this script:
-1) Edit the name of the FASTA file (the input file).
-2) Edit the name of the output file with the list of names.
-3) Edit the name of the output FASTA file
+1) Edit the name of the FASTA file (the input file). (on line 15)
+2) Edit the name of the output file with the list of names. (on line 20)
+3) Edit the name of the output FASTA file. (on line 21)
 4) Run as follows, via the command line: >python name_grabber_jgiformat_public.py
 
 KNOWN ISSUES:
@@ -21,8 +21,12 @@ KNOWN ISSUES:
 
 Script author:
 Allyn Schoeffler, Ph.D.
+
 Assistant Professor
+
 Department of Chemistry & Biochemistry
+
 Loyola Univeristy New Orleans
+
 ajschoef@loyno.edu
 (Please note: Our spam filters are aggressive. Lack of response might mean I never got your email.)
