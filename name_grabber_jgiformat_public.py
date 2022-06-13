@@ -81,7 +81,7 @@ def indseq_list(list_of_seqs, seq_index):
 	output_namefile.write(gene_code)
 	output_namefile.write('\n')
 	
-	seq_name = org_genus + '_' + org_species + '_' + gene_code
+	seq_name = '_' + org_genus + '_' + org_species + '_' + gene_code
 	name_and_seq_list = [seq_name, seq_list]
 
 	output_fastafile.write('>')
